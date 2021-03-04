@@ -1,8 +1,13 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'semantic-ui-css/semantic.min.css';
+import 'react-toastify/dist/ReactToastify.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.scss';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
   <React.StrictMode>
